@@ -11,4 +11,4 @@ def my_args(*args):
         print(arg)
 
 # Call the my_args function with a string, a number and a copy of itself
-unsure('a string', 4, my_args)
+my_args('a string', 4, my_args)
