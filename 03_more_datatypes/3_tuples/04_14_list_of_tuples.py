@@ -6,3 +6,6 @@ input = "hello world"
 result_list = [('h', 'e', 'l', 'l', 'o'), ('w', 'o', 'r', 'l', 'd')]
 
 '''
+
+words = input.split()
+for word in words:
